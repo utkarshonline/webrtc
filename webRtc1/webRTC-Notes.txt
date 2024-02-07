@@ -1,0 +1,92 @@
+------WebRtc-----
+
+1) In this I am going to learn about Webrtc APIS.
+2) Protocol and Underlying Technology.
+3) WebSocket to Socket.IO Conversion.
+4) RealTime Screen Sharing System 
+5) Group Call
+
+
+1)==>What is WebRtc
+
+ans==>WebRtc ==>Web Real-Time Communication. It is like open source project.
+and many browser support WebRtc like chrome, firefox ....
+and supported by mobile also. 
+no need to install packages. 
+
+2) WebRTC uses?
+==> >Social Networking.
+    >Dating Services.
+    >E-learning
+    >Live BroadCasting
+    >Medical Consultations
+    >Financial Services
+    >Real-time marketing
+
+
+3) How webRTC works.
+=>when two user try to connect webRTC API create an Offer(SDP Offer as Local Description)==>
+after creating this offer that offer reach to Signaling Server ==> that offer changes to Remote  Description on the side of other user.now Answer SDP as Local Description created to the receiving client==>then it reach to Signaling Server and changes to Remote Description.
+and finally connction established. Now Signaling Server work is over.
+
+==>so For this project I will learn how to create an Offer
+
+
+
+next day==>
+*Getting User Media*
+
+1. What is getUserMedia?==>a function so we can catch audio and video form browser.
+2.How to Use getUserMedia?
+
+
+next topic==>now I am moving to Signaling Server
+
+1. How to create a room?
+2.How to Join a room?
+3.How to Set room size?
+
+
+next topic==>Making a signaling server.
+set event on server side.
+
+
+//next topic==> Setting up client side Events(Created,Joined,Full);
+
+
+//next topic ==>Emit Ready Event, RTCPeerConnection & ICE.
+
+RTCPeerConnection==>it is an interface ==>connection between the local computer and remote peer.
+
+
+//next Topic==> On Track Function.
+
+//next topic==>Adding Media Tracks.
+for ssending the audio and video to peerVideo.
+
+
+//next topic==>Creating an Offer.
+//for exchanging the offer.
+
+
+//next topic==>Offer and Answer.
+
+
+//SDP==>Session Description protocol.
+creator have local SDP and the get user has Remote Description.
+
+//finishing up our video chat.
+
+
+
+//next topic ==> Now Upgrading the video chat App-->
+
+1. Mute Microphone.
+2. Leave Room.
+3. Hide Camera.
+
+
+//next topic ==>hide and show user Camera.
+
+
+//next topic==>how to leave room
